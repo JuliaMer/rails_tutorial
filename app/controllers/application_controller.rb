@@ -6,6 +6,6 @@ protect_from_forgery with: :exception
   end
 
   def hola
-    render html: "hola mundo!"
+    render html: "hola mundo. Que lindo lugar!"
   end
 end
