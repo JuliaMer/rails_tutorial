@@ -5,4 +5,7 @@ protect_from_forgery with: :exception
     render html: "hello, world!"
   end
 
+  def hola
+    render html: "hola mundo!"
+  end
 end
